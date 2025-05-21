@@ -20,7 +20,7 @@ DNS finds the IP address of Facebook’s server.
 
 Your browser connects to that IP and loads the site.
 
-[DNS](https://cdn-images-1.medium.com/max/1600/1*T-UR9mJuY4v2R8QWwm-KZw.jpeg)
+![DNS](https://cdn-images-1.medium.com/max/1600/1*T-UR9mJuY4v2R8QWwm-KZw.jpeg)
 
 ## How DNS Works – Step by Step
 Let's say you want to visit www.example.com.
