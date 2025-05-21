@@ -20,6 +20,8 @@ DNS finds the IP address of Facebook’s server.
 
 Your browser connects to that IP and loads the site.
 
+[DNS](https://cdn-images-1.medium.com/max/1600/1*T-UR9mJuY4v2R8QWwm-KZw.jpeg)
+
 ## How DNS Works – Step by Step
 Let's say you want to visit www.example.com.
 
@@ -66,3 +68,30 @@ Operating System cache
 ISP DNS resolver cache
 
 This prevents repeating the full process every time.
+
+
+
+## Is DNS Secure?
+Basic DNS is not encrypted. That's why we now use:
+
+DNS over HTTPS (DoH)
+
+DNS over TLS (DoT)
+
+These protect your DNS queries from spying or tampering.
+
+## Real World Example
+You go to: www.youtube.com
+Browser asks OS: "Do you know youtube.com?"
+
+OS asks ISP’s DNS resolver.
+
+Resolver asks root → .com TLD → YouTube’s DNS server.
+
+IP returned: 142.250.72.206
+
+Browser connects to YouTube’s server.
+
+YouTube page loads.
+
+
